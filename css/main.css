@@ -27,6 +27,10 @@ header {
   color: white;
 }
 
+.mobile-menu ul {
+  margin: 0 5%;
+}
+
 #desktop-nav,
 #desktop-nav ul {
   display: none;
@@ -50,6 +54,37 @@ header {
   width: 18px;
   height: 12px;
   color: white;
+}
+
+.mobile-menu {
+  z-index: 1;
+  background-color: #3c3a39;
+  top: 0;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.mobile-menu button {
+  align-self: flex-end;
+  background: none;
+  border: none;
+  color: #8993a4;
+  font-size: 2rem;
+  margin: 5% 5% 0 0;
+  cursor: pointer;
+}
+
+.mobile-menu li {
+  text-align: left;
+  cursor: pointer;
+  font-size: 2em;
+  font-weight: 900;
+  padding: 0 0 0 0.5em;
+  margin: 1.5em 0 0;
+  border-bottom: 1px solid #8993a4;
 }
 
 main {
