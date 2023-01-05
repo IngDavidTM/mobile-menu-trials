@@ -11,7 +11,7 @@
   <body>
     <header>
       <h1 id="logo">David Tamayo</h1>
-      <button type="button" class="menu-bars">
+      <button type="button" id="menu-bars" class="menu-bars">
         <i class="fas fa-bars"></i>
       </button>
       <nav id="desktop-nav">
@@ -26,12 +26,12 @@
         </ul>
       </nav>
     </header>
-    <div class="mobile-menu">
-      <button type="button">✕</button>
+    <div id="mobile-menu" class="mobile-menu">
+      <button id="x-button" type="button">✕</button>
       <ul>
-        <li>Portfolio</li>
-        <li>About</li>
-        <li>Contact</li>
+        <li><a class="nav-link-mobile" href="#projects">Portoflio</a></li>
+        <li><a class="nav-link-mobile" href="#about-me">About</a></li>
+        <li><a class="nav-link-mobile" href="#contact">Contact</a></li>
       </ul>
     </div>
     <main>
