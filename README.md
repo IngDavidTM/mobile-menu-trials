@@ -17,7 +17,6 @@
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
-  - [Install](#install)
   - [Run tests](#run-tests)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
@@ -83,19 +82,9 @@ Clone this repository to your desired folder:
   git clone git@github.com:IngDavidTM/mobile-menu-trials.git
 ```
 
-### Install
-
-Install this project with:
-
-
-```
-cd mobile-menu-trials
-
-```
-
 ### Usage
 
-To run the project, use Chrome
+To run the project use your favorite browser, mine is Chrome
 
 ### Run tests
 
