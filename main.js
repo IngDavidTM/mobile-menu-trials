@@ -9,6 +9,12 @@ link.forEach((element) => {
   });
 });
 
+// link.forEach((element) => {
+//   element.addEventListener('click', () => {
+//     menu.style.display = 'none';
+//   });
+// });
+
 closeMenu.addEventListener('click', () => {
   menu.style.display = 'none';
 });
