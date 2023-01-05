@@ -77,6 +77,18 @@ header {
   cursor: pointer;
 }
 
+li {
+  list-style: none;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 43px;
+  text-align: center;
+  color: #fff;
+  padding: 5px;
+}
+
 .mobile-menu li {
   text-align: left;
   cursor: pointer;
@@ -261,18 +273,6 @@ main {
   bottom: 0;
   left: 0;
   right: 0;
-}
-
-li {
-  list-style: none;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 22px;
-  line-height: 43px;
-  text-align: center;
-  color: #fff;
-  padding: 5px;
 }
 
 .card-stacks li {
